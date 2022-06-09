@@ -1,0 +1,24 @@
+/* inherit可以用于任何属性，继承自父元素 */
+
+a{
+  color: inherit;
+}
+.callout{
+  position: relative;
+  width: 10rem;
+  height: 30rem;
+  border: 1px solid #333;
+  background-color: blanchedalmond;
+}
+.callout::before {
+  content: "";
+  position: absolute;
+  top: -.4em;
+  left: 1em;
+  padding: .35em;
+  background: inherit;
+  border: inherit;
+  border-right: 0;
+  border-bottom: 0;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,15 @@
+/* currentColor变量取当前的颜色color值 */
+
+.current_color_wrapper{
+  color: blueviolet;
+}
+hr{
+  height: .5em;
+  background: currentColor;
+}
+.box{
+  width: 10rem;
+  height: 10rem;
+  border-radius: .6rem;
+  border: 1px solid currentColor
+}
